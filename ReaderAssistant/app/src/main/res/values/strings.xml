@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">本地事务助手·开发骨架</string>
+    <string name="accessibility_description">仅在应用内开启识别并选中应用后读取当前可访问页面。当前仅提供QQ基础采集；微信OCR及本地模型尚未实现。不自动操作其他应用。</string>
+</resources>

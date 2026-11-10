@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.ReaderAssistant" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>

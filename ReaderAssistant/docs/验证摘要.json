@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-08",
+  "build": "SUCCESS",
+  "last_build_mode": "offline",
+  "tasks": [
+    "assembleDebug",
+    "testDebugUnitTest",
+    "assembleDebugAndroidTest",
+    "lintDebug"
+  ],
+  "jvm_tests": 15,
+  "jvm_failures_or_errors": 0,
+  "instrumentation_tests_compiled": 3,
+  "instrumentation_tests_executed": false,
+  "lint_severity_counts": {
+    "Warning": 44
+  },
+  "lint_issue_counts": {
+    "AndroidGradlePluginVersion": 3,
+    "GradleDependency": 39,
+    "SetTextI18n": 2
+  },
+  "room_tables": 9,
+  "apk_sha256": "71bb2a3ed898d9e29a92a5219005aa0b680bbabe89573649bdb0ea700ecd5a8d",
+  "device_runtime_verified": false
+}
