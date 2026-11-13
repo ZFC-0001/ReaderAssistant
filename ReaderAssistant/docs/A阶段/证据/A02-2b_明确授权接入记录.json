@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-11",
+  "authorization": "user reply 允许 to specific three-public-file request",
+  "publicExceptions": [
+    "app/build.gradle.kts",
+    "app/src/main/AndroidManifest.xml",
+    "gradle/libs.versions.toml"
+  ],
+  "aSourceAndTestFiles": [
+    "app/src/main/java/com/example/localtaskassistant/capture/ocr/LocalOcrAdapter.kt",
+    "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrInputRules.kt",
+    "app/src/main/java/com/example/localtaskassistant/capture/ocr/RgbaPlanePacker.kt",
+    "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatOcrProbe.kt",
+    "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeActivity.kt",
+    "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeService.kt",
+    "app/src/test/java/com/example/localtaskassistant/capture/ocr/OcrInputRulesTest.kt",
+    "app/src/test/java/com/example/localtaskassistant/capture/ocr/RgbaPlanePackerTest.kt"
+  ],
+  "normalWhitelistChanged": false,
+  "protectedChanges": {
+    "modified": [
+      "app/build.gradle.kts",
+      "app/src/main/AndroidManifest.xml",
+      "gradle/libs.versions.toml"
+    ],
+    "added": [],
+    "deleted": []
+  },
+  "allCandidateHashesVerified": true
+}

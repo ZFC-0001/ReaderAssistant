@@ -1,0 +1,22 @@
+{
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrBandRecognition.kt": {
+    "before": null,
+    "after": "3bcc376df64f6f71a7be7a160a07e60b53cab0560d31baa696542f27fde12fc7"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrScreenSizeExperiment.kt": {
+    "before": "0553571827ecf2b720edf3a0d106cb77c2c65f2eee9742ef10152d6bb82bd294",
+    "after": "f7c01c8b99612cef94525d2ff636227df36d3de3400920ba60fcca697d8d16b0"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatOcrProbe.kt": {
+    "before": "71c67904d146a581121aba2770fcb76e0336180df9ea71bab1496afbe5c137e7",
+    "after": "4819520d5a7b1410b62305f7a2678daba2e39555b39437a35f4a7a2912e6ca2d"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeActivity.kt": {
+    "before": "e94585e370eb59889a4a6c47338e3f4d7e0cb8b36d0e4fbed54b5531fbc5cac4",
+    "after": "81532a7ca2857b446081f2f3d22507a842e880f2554f4344c139aba91339d03a"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeService.kt": {
+    "before": "434eb093bf14a2b8df00ba3e471ca7e0eb0e4135e5fb01f3e3a5adb09c911b42",
+    "after": "3c29b229a9244cadc212bf6662bd492a75519e8de3c7fec46137b9c4cf40e1f2"
+  }
+}

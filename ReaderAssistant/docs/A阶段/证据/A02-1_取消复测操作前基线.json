@@ -1,0 +1,22 @@
+{
+  "previousRunId": "A02_0ecb92f54fbf4437a4ce9a9732f4c945",
+  "previousFrames": 1,
+  "previousReport": {
+    "runId": "A02_0ecb92f54fbf4437a4ce9a9732f4c945",
+    "phase": "STOPPED",
+    "endReason": "USER_STOP",
+    "frames": 1,
+    "variedFrames": 1,
+    "consecutiveVariedFrames": 0,
+    "scopeSkips": 1,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 7296,
+    "elapsedMillis": 11440
+  },
+  "scenario": "cancel_system_projection_consent_retest",
+  "expectedNoNewRun": true,
+  "expectedProjectionServiceActive": false,
+  "deviceResult": "PENDING_USER_CANCEL_AFTER_FRESH_BASELINE",
+  "userConfirmedPriorSystemCancel": true
+}

@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- 核心离线流程不声明 INTERNET；接入第三方模型/OCR 库后仍须复核依赖。 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- OCR随包模型；显式移除依赖可能合并的直接联网权限。 -->
+    <uses-permission android:name="android.permission.INTERNET" tools:node="remove" />
+    <!-- 只用于连通性检查，不授予建立网络连接的能力。 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 核心离线流程不授予 INTERNET；集成后仍以实际APK权限审计为准。 -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- A-02.1：仅本次微信MediaProjection真机验证所需，需用户批准后由B/集成负责人登记。 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
     <application android:name=".bootstrap.AssistantApplication"
         android:allowBackup="false" android:label="@string/app_name" android:icon="@android:drawable/ic_menu_agenda"
         android:fullBackupContent="@xml/backup_rules" android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,6 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- 临时开发验证入口；实现中仅debug包可进入，不改C的正式页面。 -->
+        <activity android:name=".capture.ocr.WechatProjectionProbeActivity"
+            android:label="微信画面验证（开发测试）" android:exported="true" />
+        <service android:name=".capture.ocr.WechatProjectionProbeService"
+            android:exported="false" android:foregroundServiceType="mediaProjection" />
         <service android:name=".capture.AccessibilityCaptureService" android:exported="true"
             android:label="本地事务助手·QQ读屏"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">

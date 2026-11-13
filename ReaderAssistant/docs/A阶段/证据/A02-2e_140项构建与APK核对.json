@@ -1,0 +1,12 @@
+{
+  "jvm": {
+    "tests": 140,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "certificateMatches": true,
+  "payloadUnchangedBySigning": true,
+  "internetPermission": false,
+  "sha256": "be16097e00e8368298ae704f88026ad03e266a6c28d55c565554f923435269b3"
+}

@@ -1,0 +1,34 @@
+{
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrInputRules.kt": {
+    "before": "c3da10d12e470428443d183fbbd4c48a6f6ca3134fa76c55b50def53d2b96d5e",
+    "after": "4c25daeed009a7d51cf64f44d8205b3b0b9d0913106a3cbd5965848c21c9fd40"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/LocalOcrAdapter.kt": {
+    "before": "65ee43c77f02301a009bc1b3746a8901be1de5008974898b578abca2ffa61003",
+    "after": "2593bbf39c3aad526b378268e922358773e07ebec14948da7c1462641115df4a"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrBandRecognition.kt": {
+    "before": "68e544742afca088d2e3534fd7866792e7770cc6aad68ab7a925aa53824252bc",
+    "after": "bedf4c6bfa2c5a8583bde0d3f94c6f268a83e2ffaa85bd22043256508f038adc"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrDebugImageTest.kt": {
+    "before": "b5a8c4119240521d397a44009a8116fa250b3ff5871363c744a0f92fb49e1de1",
+    "after": "60d55cfe85610bbb35c86184357e9a7ab67ba50a92a68bdc42a434c82415edc2"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatOcrProbe.kt": {
+    "before": "4819520d5a7b1410b62305f7a2678daba2e39555b39437a35f4a7a2912e6ca2d",
+    "after": "a545991890b50c7a7043d2dda8845eb7ab7a598e70c99d7397abd0eb280648db"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeActivity.kt": {
+    "before": "14ea70f6b425aca13052365363704ec5b6bfafee7031b800abc774e314f5332e",
+    "after": "3735b05a68e251eebc590488510d82f50c1c0653900eeb61e66c6668b36e1432"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeService.kt": {
+    "before": "176cc8f46f5c83924f5689d1a1d8ab51511af2275a81c39d1ff5ad60167c4f01",
+    "after": "7a68f1d9091721d3f57a91e9e4435e09c104dbb4bf95fae6f668c70caa95ed14"
+  },
+  "app/src/test/java/com/example/localtaskassistant/capture/ocr/OcrInputRulesTest.kt": {
+    "before": "a650ec9b824c7cbd5fe24a788fffe451b639ef4a7c025a0dd811d61ff3e3c6bd",
+    "after": "7f420beb990cb985c8590bea19e16fce1ba2edaf99412f11fcf0d1ae62ace1db"
+  }
+}

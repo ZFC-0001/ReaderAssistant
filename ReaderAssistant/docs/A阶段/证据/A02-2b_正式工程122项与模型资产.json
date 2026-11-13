@@ -1,0 +1,16 @@
+{
+  "unitTests": {
+    "tests": 122,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "apkBytes": 50160633,
+  "internetPermissionDeclared": false,
+  "chineseModelAssets": [
+    "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Hani_ctc/optical/assets.extra/LabelMap.pb",
+    "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Hani_ctc/optical/conv_model.fb",
+    "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Hani_ctc/optical/lstm_model.fb"
+  ],
+  "realWechatOcr": "PENDING_PHONE"
+}

@@ -1,0 +1,28 @@
+{
+  "rawFirstObservation": {
+    "scenario": "cancel_system_projection_consent",
+    "lastStoredReport": {
+      "runId": "A02_0ecb92f54fbf4437a4ce9a9732f4c945",
+      "phase": "STOPPED",
+      "endReason": "USER_STOP",
+      "frames": 1,
+      "variedFrames": 1,
+      "consecutiveVariedFrames": 0,
+      "scopeSkips": 1,
+      "width": 576,
+      "height": 1280,
+      "firstFrameLatencyMillis": 7296,
+      "elapsedMillis": 11440
+    },
+    "noNewRun": false,
+    "framesUnchanged": false,
+    "projectionServiceListed": false,
+    "ownProjectionListed": false,
+    "userReportedCancel": true,
+    "result": "FAIL"
+  },
+  "userClarification": "系统授权弹窗里的取消/返回",
+  "interpretation": "No-new-run assertion unmet; procedure/callback causality not established",
+  "doNotInfer": "Do not conclude user clicked stop, or that cancellation caused capture, from this snapshot alone",
+  "caseResult": "UNVERIFIED_RETEST_WITH_FRESH_BASELINE"
+}

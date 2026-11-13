@@ -1,0 +1,4 @@
+package: com.example.localtaskassistant.ocrprobe20261111
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+permission: com.example.localtaskassistant.ocrprobe20261111.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission: name='com.example.localtaskassistant.ocrprobe20261111.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'

@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-11",
+  "userDecision": "横屏暂不测试，当前按竖屏推进",
+  "portraitCaptureBasicAcceptance": "PASS_WITH_DOCUMENTED_LIMITS",
+  "rotationAcceptance": "NOT_TESTED_OUT_OF_CURRENT_SCOPE",
+  "ocr": "NOT_IMPLEMENTED_NEXT_STEP",
+  "codeChanged": false
+}

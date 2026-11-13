@@ -1,0 +1,10 @@
+{
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeActivity.kt": {
+    "before": "3735b05a68e251eebc590488510d82f50c1c0653900eeb61e66c6668b36e1432",
+    "after": "9c6f77341fa15b0449506a1d855328c9b2cf05241db97d5bdcd40cc52477028f"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeService.kt": {
+    "before": "7a68f1d9091721d3f57a91e9e4435e09c104dbb4bf95fae6f668c70caa95ed14",
+    "after": "9383515585b549d133629e429e41f1292dacb83dbe7e483d9ffcdb871e655e11"
+  }
+}

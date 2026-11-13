@@ -1,0 +1,13 @@
+{
+  "authorization": "2026-11-11 user reply 继续 to the specific one-file Manifest exception",
+  "file": "app/src/main/AndroidManifest.xml",
+  "beforeSha256": "2071f80d678c5a93d49f7687f637ea8fdb49b38c2cd3edba486fd9b4dcf9a78f",
+  "afterSha256": "db7233ef7f2b98ae69731c9e4a44cbb68d8b59ad27f740528abff7748cc58510",
+  "changes": [
+    "FOREGROUND_SERVICE",
+    "FOREGROUND_SERVICE_MEDIA_PROJECTION",
+    "debug-guarded WechatProjectionProbeActivity",
+    "non-exported mediaProjection WechatProjectionProbeService"
+  ],
+  "normalAWhitelistChanged": false
+}

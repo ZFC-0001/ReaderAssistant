@@ -1,0 +1,33 @@
+{
+  "runId": "A022a_959ddc660b8647168a4746579559ba68",
+  "phase": "COMPARISON_COMPLETE",
+  "experimentVersion": 2,
+  "fixtureVersion": 1,
+  "fixtureTotal": 3,
+  "variants": [
+    {
+      "mode": "RAW",
+      "phase": "FAIL",
+      "fixtureHits": 1,
+      "lineCount": 3,
+      "characterCount": 35,
+      "elapsedMillis": 332
+    },
+    {
+      "mode": "WHITE_PAGE_BINARY",
+      "phase": "PASS",
+      "fixtureHits": 3,
+      "lineCount": 3,
+      "characterCount": 36,
+      "elapsedMillis": 146
+    }
+  ],
+  "binaryCandidatePassed": true,
+  "comparison": "whitespace_removed_exact_substrings",
+  "elapsedMillis": 661,
+  "inputBytesCleared": true,
+  "airplaneModeOnAtStart": true,
+  "noActiveNetworkAtStart": true,
+  "noActiveNetworkAtEnd": true,
+  "internetPermissionGranted": false
+}

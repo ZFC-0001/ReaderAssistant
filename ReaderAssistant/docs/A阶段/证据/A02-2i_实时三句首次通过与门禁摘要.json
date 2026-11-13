@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-12",
+  "result": "FIRST_LIVE_WECHAT_CHAT_FIXTURE_PASS",
+  "runId": "A02_0c62edbd427b41dc8858780faf3a9c98",
+  "userConfirmedScene": "文件传输助手内三条绿色测试消息",
+  "authorization": "用户选择整个屏幕，并从屏幕防护中选择本次继续共享；未关闭全局防护",
+  "beforeTrigger": {
+    "pairs": 0,
+    "frames": 0,
+    "manual": true,
+    "tokenMatches": false,
+    "observedElapsedMillis": 121863
+  },
+  "afterTrigger": {
+    "ocr": {
+      "runId": "A02_0c62edbd427b41dc8858780faf3a9c98",
+      "phase": "STOPPED",
+      "stopReason": "PREVIEW_READY",
+      "pairs": 1,
+      "errors": 0,
+      "busyDrops": 3,
+      "lastRawHits": 3,
+      "lastBinaryHits": 2,
+      "bestPairRawHits": 3,
+      "bestPairBinaryHits": 2,
+      "bestPairNumber": 1,
+      "width": 1152,
+      "height": 2560,
+      "lastPairMillis": 1723,
+      "rawCharacters": 369,
+      "binaryCharacters": 214,
+      "fixtureTotal": 3,
+      "binaryMode": "CHAT_DARK_TEXT_160",
+      "inputDiagnostics": {
+        "rowStride": 4608,
+        "pixelStride": 4,
+        "bufferPosition": 0,
+        "bufferRemaining": 11796480,
+        "full": {
+          "samples": 2304,
+          "alphaZero": 0,
+          "alphaOpaque": 2304,
+          "minimumAlpha": 255,
+          "maximumAlpha": 255,
+          "darkSamples": 0,
+          "lightSamples": 275,
+          "minimumLuminance": 19,
+          "maximumLuminance": 255,
+          "meanLuminance": 218
+        },
+        "center": {
+          "samples": 2304,
+          "alphaZero": 0,
+          "alphaOpaque": 2304,
+          "minimumAlpha": 255,
+          "maximumAlpha": 255,
+          "darkSamples": 0,
+          "lightSamples": 126,
+          "minimumLuminance": 19,
+          "maximumLuminance": 252,
+          "meanLuminance": 214
+        }
+      },
+      "bandComparison": {
+        "raw": {
+          "hits": 2,
+          "characters": 461,
+          "bands": 3,
+          "elapsedMillis": 1250,
+          "failed": false
+        },
+        "binary": {
+          "hits": 2,
+          "characters": 249,
+          "bands": 3,
+          "elapsedMillis": 911,
+          "failed": false
+        }
+      }
+    },
+    "pixels": {
+      "runId": "A02_0c62edbd427b41dc8858780faf3a9c98",
+      "phase": "STOPPED",
+      "endReason": "PREVIEW_READY",
+      "frames": 4,
+      "variedFrames": 4,
+      "consecutiveVariedFrames": 2,
+      "scopeSkips": 11,
+      "width": 1152,
+      "height": 2560,
+      "firstFrameLatencyMillis": 180953,
+      "elapsedMillis": 185268
+    },
+    "sameSession": true,
+    "hasFullFixtureInOneObservedFrame": true,
+    "hasAllFixturesInSingleFrameBands": false,
+    "realWechatGeneralAccuracy": "NOT_ESTABLISHED_BY_THREE_SENTENCES"
+  },
+  "finalPhoneState": {
+    "screenSharingProtection": "1",
+    "stayOnWhilePlugged": "0",
+    "mediaProjection": "MEDIA PROJECTION MANAGER (dumpsys media_projection)\nMedia Projection: \nnull"
+  },
+  "evaluation": "three fixed phrases, whitespace removed, exact substrings within one processed frame",
+  "newHostScreenshot": false,
+  "newImageViewedByModel": false,
+  "appPrivateDebugExportEnabled": true,
+  "autoReviewEvent": {
+    "rejected": "新增整屏截图保存并查看",
+    "reason": "此前单张测试画面授权未明确覆盖新增截图",
+    "resolution": "未执行该命令；采用用户确认场景、会话token和OCR计数的更安全替代方式"
+  },
+  "jvm": {
+    "tests": 142,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "limits": [
+    "single controlled full-screen WeChat test conversation only",
+    "not a general accuracy rate or arbitrary-app readability guarantee",
+    "single-app sharing, continuous capture, article scenes and field provenance remain to validate"
+  ]
+}

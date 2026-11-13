@@ -1,0 +1,87 @@
+{
+  "runId": "A022e_148514336cf0436aae7c679d0f34df08",
+  "phase": "COMPLETE",
+  "source": "SYNTHETIC_HEIGHT_COMPARISON",
+  "fixtureTotal": 3,
+  "fontPixels": 52,
+  "width": 1152,
+  "experimentVersion": 2,
+  "cases": [
+    {
+      "height": 480,
+      "variants": [
+        {
+          "mode": "FULL_RAW",
+          "hits": 1,
+          "characters": 35,
+          "bands": 1,
+          "elapsedMillis": 654,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "FULL_BINARY",
+          "hits": 3,
+          "characters": 36,
+          "bands": 1,
+          "elapsedMillis": 173,
+          "phase": "PASS"
+        },
+        {
+          "mode": "BANDS_RAW",
+          "hits": 1,
+          "characters": 35,
+          "bands": 1,
+          "elapsedMillis": 145,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "BANDS_BINARY",
+          "hits": 3,
+          "characters": 36,
+          "bands": 1,
+          "elapsedMillis": 152,
+          "phase": "PASS"
+        }
+      ]
+    },
+    {
+      "height": 2560,
+      "variants": [
+        {
+          "mode": "FULL_RAW",
+          "hits": 2,
+          "characters": 36,
+          "bands": 1,
+          "elapsedMillis": 429,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "FULL_BINARY",
+          "hits": 2,
+          "characters": 35,
+          "bands": 1,
+          "elapsedMillis": 355,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "BANDS_RAW",
+          "hits": 1,
+          "characters": 35,
+          "bands": 3,
+          "elapsedMillis": 679,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "BANDS_BINARY",
+          "hits": 3,
+          "characters": 36,
+          "bands": 3,
+          "elapsedMillis": 479,
+          "phase": "PASS"
+        }
+      ]
+    }
+  ],
+  "inputBytesCleared": true,
+  "elapsedMillis": 3372
+}

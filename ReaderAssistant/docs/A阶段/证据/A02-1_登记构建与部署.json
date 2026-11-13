@@ -1,0 +1,16 @@
+{
+  "build": "BUILD SUCCESSFUL",
+  "unitTests": {
+    "tests": 89,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "unitTaskThisBuild": "UP-TO-DATE; prior successful results verified",
+  "installedWithoutUninstall": true,
+  "probeActivityLaunch": "Status ok COLD",
+  "accessibilityEnabled": true,
+  "accessibilityBound": true,
+  "projectionServiceStarted": false,
+  "captureDeviceResult": "PENDING_USER_CONSENT_AND_WECHAT_SELECTION"
+}

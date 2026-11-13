@@ -1,0 +1,10 @@
+{
+  "before": {
+    "WechatProjectionProbeActivity.kt": "34ab861b88170001bfd34f6b959656d7b3619e5ce987bc36d7b42a85ba514c65",
+    "WechatProjectionProbeService.kt": "4b43132e42dde320c5ffb69ea7ed6e442116a47ba523f0af79cc9402f5896ed8"
+  },
+  "after": {
+    "WechatProjectionProbeActivity.kt": "057fa0998a398aa381a973fcc0436ac0259ecebf43e509d822fce6890390e3a0",
+    "WechatProjectionProbeService.kt": "c9dc5c80d5bfd4c512b4cf621f63c9ce5a398fdc9536070dae7fb5aa354dd685"
+  }
+}

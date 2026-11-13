@@ -1,0 +1,27 @@
+{
+  "scenario": "lock_fixed_build_no_frame",
+  "result": {
+    "runId": "A02_80211e3a99a248d5b511051de211ea1f",
+    "phase": "STOPPED",
+    "endReason": "LOCKED",
+    "frames": 0,
+    "variedFrames": 0,
+    "consecutiveVariedFrames": 0,
+    "scopeSkips": 0,
+    "width": 0,
+    "height": 0,
+    "firstFrameLatencyMillis": null,
+    "elapsedMillis": 26260
+  },
+  "newRun": true,
+  "framesUnchangedAfterStop": true,
+  "projectionServiceListed": false,
+  "ownProjectionListed": false,
+  "wakefulness": [
+    "Dozing"
+  ],
+  "keyguardShowing": true,
+  "lockTrigger": "EFFECTIVE",
+  "captureThenLockAcceptance": "INCOMPLETE_NO_FRAMES",
+  "ocrTested": false
+}

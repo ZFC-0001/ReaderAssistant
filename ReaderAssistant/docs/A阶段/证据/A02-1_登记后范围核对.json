@@ -1,0 +1,10 @@
+{
+  "protectedFiles": 69,
+  "normalWhitelistChanged": false,
+  "approvedExceptionOnly": [
+    "app/src/main/AndroidManifest.xml"
+  ],
+  "otherProtectedFilesUnchanged": true,
+  "manifestExactlyMatchesApprovedCandidate": true,
+  "aSourceMatchesBuiltProject": true
+}

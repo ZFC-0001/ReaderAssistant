@@ -1,0 +1,86 @@
+{
+  "runId": "A022e_42bc483128ea42f59becc3dca2e2cb72",
+  "phase": "COMPLETE",
+  "source": "SYNTHETIC_HEIGHT_COMPARISON",
+  "fixtureTotal": 3,
+  "fontPixels": 52,
+  "width": 1152,
+  "cases": [
+    {
+      "height": 480,
+      "variants": [
+        {
+          "mode": "FULL_RAW",
+          "hits": 1,
+          "characters": 36,
+          "bands": 1,
+          "elapsedMillis": 847,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "FULL_BINARY",
+          "hits": 3,
+          "characters": 37,
+          "bands": 1,
+          "elapsedMillis": 195,
+          "phase": "PASS"
+        },
+        {
+          "mode": "BANDS_RAW",
+          "hits": 1,
+          "characters": 36,
+          "bands": 1,
+          "elapsedMillis": 177,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "BANDS_BINARY",
+          "hits": 3,
+          "characters": 37,
+          "bands": 1,
+          "elapsedMillis": 165,
+          "phase": "PASS"
+        }
+      ]
+    },
+    {
+      "height": 2560,
+      "variants": [
+        {
+          "mode": "FULL_RAW",
+          "hits": 2,
+          "characters": 37,
+          "bands": 1,
+          "elapsedMillis": 265,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "FULL_BINARY",
+          "hits": 2,
+          "characters": 36,
+          "bands": 1,
+          "elapsedMillis": 255,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "BANDS_RAW",
+          "hits": 1,
+          "characters": 38,
+          "bands": 3,
+          "elapsedMillis": 749,
+          "phase": "FAIL"
+        },
+        {
+          "mode": "BANDS_BINARY",
+          "hits": 3,
+          "characters": 39,
+          "bands": 3,
+          "elapsedMillis": 441,
+          "phase": "PASS"
+        }
+      ]
+    }
+  ],
+  "inputBytesCleared": true,
+  "elapsedMillis": 3390
+}

@@ -1,0 +1,37 @@
+{
+  "ocr": {
+    "runId": "A02_0e7422661e554405b427066b2e044e16",
+    "phase": "STOPPED",
+    "stopReason": "USER_STOP",
+    "pairs": 31,
+    "errors": 0,
+    "busyDrops": 0,
+    "lastRawHits": 0,
+    "lastBinaryHits": 0,
+    "bestPairRawHits": 0,
+    "bestPairBinaryHits": 0,
+    "bestPairNumber": 0,
+    "width": 1152,
+    "height": 2560,
+    "lastPairMillis": 754,
+    "rawCharacters": 0,
+    "binaryCharacters": 0,
+    "fixtureTotal": 3
+  },
+  "pixels": {
+    "runId": "A02_0e7422661e554405b427066b2e044e16",
+    "phase": "STOPPED",
+    "endReason": "USER_STOP",
+    "frames": 31,
+    "variedFrames": 31,
+    "consecutiveVariedFrames": 0,
+    "scopeSkips": 8,
+    "width": 1152,
+    "height": 2560,
+    "firstFrameLatencyMillis": 7770,
+    "elapsedMillis": 86816
+  },
+  "sameSession": true,
+  "hasFullFixtureInOneObservedFrame": false,
+  "realWechatGeneralAccuracy": "NOT_ESTABLISHED_BY_THREE_SENTENCES"
+}

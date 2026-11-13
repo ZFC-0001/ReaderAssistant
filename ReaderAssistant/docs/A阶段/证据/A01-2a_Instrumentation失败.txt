@@ -1,0 +1,41 @@
+INSTRUMENTATION_STATUS: class=com.example.localtaskassistant.capture.QqReadabilityDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.example.localtaskassistant.capture.QqReadabilityDeviceTest:
+INSTRUMENTATION_STATUS: test=threeSyntheticMessagesAreReadableTwiceFromQQ
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.localtaskassistant.capture.QqReadabilityDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: 先手动开启本地事务助手的QQ读屏服务
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.example.localtaskassistant.capture.QqReadabilityDeviceTest.threeSyntheticMessagesAreReadableTwiceFromQQ(QqReadabilityDeviceTest.kt:34)
+
+INSTRUMENTATION_STATUS: stream=
+Error in threeSyntheticMessagesAreReadableTwiceFromQQ(com.example.localtaskassistant.capture.QqReadabilityDeviceTest):
+java.lang.AssertionError: 先手动开启本地事务助手的QQ读屏服务
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.example.localtaskassistant.capture.QqReadabilityDeviceTest.threeSyntheticMessagesAreReadableTwiceFromQQ(QqReadabilityDeviceTest.kt:34)
+
+INSTRUMENTATION_STATUS: test=threeSyntheticMessagesAreReadableTwiceFromQQ
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.012
+There was 1 failure:
+1) threeSyntheticMessagesAreReadableTwiceFromQQ(com.example.localtaskassistant.capture.QqReadabilityDeviceTest)
+java.lang.AssertionError: 先手动开启本地事务助手的QQ读屏服务
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.example.localtaskassistant.capture.QqReadabilityDeviceTest.threeSyntheticMessagesAreReadableTwiceFromQQ(QqReadabilityDeviceTest.kt:34)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,43 @@
+{
+  "pixels": {
+    "runId": "A02_cbfc1490ea1a4518a01fa2da991a13cb",
+    "phase": "STOPPED",
+    "endReason": "TIME_LIMIT",
+    "frames": 58,
+    "variedFrames": 58,
+    "consecutiveVariedFrames": 2,
+    "scopeSkips": 4,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 6538,
+    "elapsedMillis": 120036
+  },
+  "ocr": {
+    "runId": "A02_df0b42468b42468584a0094eb1729fde",
+    "phase": "STOPPED",
+    "stopReason": "TIME_LIMIT",
+    "pairs": 6,
+    "errors": 0,
+    "busyDrops": 0,
+    "lastRawHits": 0,
+    "lastBinaryHits": 0,
+    "bestPairRawHits": 0,
+    "bestPairBinaryHits": 0,
+    "bestPairNumber": 0,
+    "width": 1152,
+    "height": 2560,
+    "lastPairMillis": 672,
+    "rawCharacters": 0,
+    "binaryCharacters": 1,
+    "fixtureTotal": 3
+  },
+  "differentSessionIds": true,
+  "liveProjection": [],
+  "accessibilityEnabled": true,
+  "accessibilityDiagnostic": [
+    "A_QQ_PROBE attempts=732 gate=wechat_ocr_pending",
+    "A_QQ_PROBE policyEnabled=true qqAllowed=true connected=true currentSession=true",
+    "A_QQ_PROBE controlExists=false workerCompleted=0 workerQueued=0 workerShutdown=false"
+  ],
+  "wechatFocused": true
+}

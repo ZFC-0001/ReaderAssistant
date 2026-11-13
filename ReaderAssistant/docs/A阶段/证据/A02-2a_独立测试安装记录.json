@@ -1,0 +1,12 @@
+{
+  "package": "com.example.localtaskassistant.ocrprobe20261111",
+  "absentBeforeFirstInstallAttempt": true,
+  "initialInstallFailureReasonCaptured": false,
+  "retryFailure": "INSTALL_FAILED_USER_RESTRICTED: Install canceled by user",
+  "afterManualPhoneReadiness": "install Success",
+  "installed": true,
+  "notLaunchedReported": false,
+  "recognitionStartedByAgent": false,
+  "mainAssistantUpdated": false,
+  "next": "manual airplane mode and WiFi off then first launch"
+}

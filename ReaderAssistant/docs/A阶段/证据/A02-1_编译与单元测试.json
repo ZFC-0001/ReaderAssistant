@@ -1,0 +1,15 @@
+{
+  "phase": "A_CODE_BUILD_UNIT_PASS_MANIFEST_PENDING",
+  "unitTests": {
+    "tests": 89,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "newTests": 25,
+  "regressionTests": 64,
+  "deviceProjectionTest": "NOT_RUN",
+  "ocr": "NOT_IMPLEMENTED",
+  "manifestApplied": false,
+  "build": "assembleDebug testDebugUnitTest BUILD SUCCESSFUL"
+}

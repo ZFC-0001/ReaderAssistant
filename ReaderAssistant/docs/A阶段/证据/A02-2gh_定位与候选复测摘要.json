@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-12",
+  "phase": "ROOT_CAUSE_CONFIRMED_NATIVE_CANDIDATE_SAVED_FRAME_PASS",
+  "userDebugAuthorization": [
+    "同意，仅这一张测试画面",
+    "测试阶段，你怎么能快速判断问题就怎么来，隐私性是成品的事情"
+  ],
+  "rootCauseOnThisDevice": {
+    "setting": "screen_share_protection_on",
+    "protectionOn": "MediaProjection input visibly blurred; raw OCR near empty",
+    "temporarilyOff": "same capture code produced a clear image and 302 characters; original exact fixtures 1/3",
+    "scope": "this phone/current system/current WeChat scene; not universal Android guarantee"
+  },
+  "secondaryIssue": "white-page threshold200 maps green bubble and dark text to black; unsuitable as general chat default",
+  "nativeControls": [
+    {
+      "fixture": "old-test-thumbnail-masked.png",
+      "runId": "A022g_3e21b86e386e40d49c7e55077359c292",
+      "phase": "COMPLETE",
+      "binaryMode": "CHAT_DARK_TEXT_160",
+      "variants": [
+        {
+          "mode": "FULL_RAW",
+          "hits": 1,
+          "characters": 166,
+          "bands": 1,
+          "elapsedMillis": 705,
+          "failed": false
+        },
+        {
+          "mode": "FULL_BINARY",
+          "hits": 2,
+          "characters": 135,
+          "bands": 1,
+          "elapsedMillis": 326,
+          "failed": false
+        },
+        {
+          "mode": "BANDS_RAW",
+          "hits": 2,
+          "characters": 206,
+          "bands": 3,
+          "elapsedMillis": 539,
+          "failed": false
+        },
+        {
+          "mode": "BANDS_BINARY",
+          "hits": 3,
+          "characters": 171,
+          "bands": 3,
+          "elapsedMillis": 541,
+          "failed": false
+        }
+      ]
+    },
+    {
+      "fixture": "original-clear-frame.png",
+      "runId": "A022g_b8cc6fe25bb542a8b0d021812ab8bd0d",
+      "phase": "COMPLETE",
+      "binaryMode": "CHAT_DARK_TEXT_160",
+      "variants": [
+        {
+          "mode": "FULL_RAW",
+          "hits": 1,
+          "characters": 302,
+          "bands": 1,
+          "elapsedMillis": 338,
+          "failed": false
+        },
+        {
+          "mode": "FULL_BINARY",
+          "hits": 2,
+          "characters": 149,
+          "bands": 1,
+          "elapsedMillis": 300,
+          "failed": false
+        },
+        {
+          "mode": "BANDS_RAW",
+          "hits": 1,
+          "characters": 496,
+          "bands": 3,
+          "elapsedMillis": 617,
+          "failed": false
+        },
+        {
+          "mode": "BANDS_BINARY",
+          "hits": 3,
+          "characters": 174,
+          "bands": 3,
+          "elapsedMillis": 561,
+          "failed": false
+        }
+      ]
+    }
+  ],
+  "phoneSettingsRestored": {
+    "screen_share_protection_on": "1",
+    "stay_on_while_plugged_in": "0"
+  },
+  "pngMatchesOriginalRgba": {
+    "samePixels": true,
+    "bytes": 11796480,
+    "sha256": "5a1de2ed6bf1c24b2b4663996c409a1da6ffec7cbe7ab1b8e1c5f2749e695c1d"
+  },
+  "jvm": {
+    "tests": 142,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "limits": [
+    "Native new candidate tested by importing exact saved MediaProjection frame, not a new live capture after this code change",
+    "No continuous reading/general accuracy/task extraction acceptance yet",
+    "System protection still enabled; later live sessions need user-controlled authorization",
+    "CHAT_DARK_TEXT_160 remains explicit experimental mode; raw/default white-page behavior retained"
+  ],
+  "artifactHashes": {
+    "device-screen.png": "bc821b43f48298f1b064827a3f09498e9d09075a04e52e4ccf5538a9c5987fd9",
+    "exported\\blurred-input.png": "8f1cc96244f22cd2672764b709d1c3ee12017b2462f840d67575af00300ce6f4",
+    "exported\\clear-input.png": "0e0db3f6feff71fa76e20133bb47fe3c4e0dc5a15a014940240fa1393e853b8b"
+  }
+}

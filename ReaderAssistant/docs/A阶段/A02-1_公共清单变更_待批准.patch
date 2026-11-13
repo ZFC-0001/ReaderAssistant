@@ -1,0 +1,24 @@
+--- a/app/src/main/AndroidManifest.xml
++++ b/app/src/main/AndroidManifest.xml
+@@ -4,6 +4,9 @@
+     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
++    <!-- A-02.1：仅本次微信MediaProjection真机验证所需，需用户批准后由B/集成负责人登记。 -->
++    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
++    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+     <application android:name=".bootstrap.AssistantApplication"
+         android:allowBackup="false" android:label="@string/app_name" android:icon="@android:drawable/ic_menu_agenda"
+         android:fullBackupContent="@xml/backup_rules" android:dataExtractionRules="@xml/data_extraction_rules"
+@@ -14,6 +17,11 @@
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
++        <!-- 临时开发验证入口；实现中仅debug包可进入，不改C的正式页面。 -->
++        <activity android:name=".capture.ocr.WechatProjectionProbeActivity"
++            android:label="微信画面验证（开发测试）" android:exported="true" />
++        <service android:name=".capture.ocr.WechatProjectionProbeService"
++            android:exported="false" android:foregroundServiceType="mediaProjection" />
+         <service android:name=".capture.AccessibilityCaptureService" android:exported="true"
+             android:label="本地事务助手·QQ读屏"
+             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">

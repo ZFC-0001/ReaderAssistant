@@ -1,0 +1,73 @@
+{
+  "ocr": {
+    "runId": "A02_31164e8f4b2547cd8fb87a2688d94c9f",
+    "phase": "STOPPED",
+    "stopReason": "PREVIEW_READY",
+    "pairs": 1,
+    "errors": 0,
+    "busyDrops": 0,
+    "lastRawHits": 0,
+    "lastBinaryHits": 0,
+    "bestPairRawHits": 0,
+    "bestPairBinaryHits": 0,
+    "bestPairNumber": 0,
+    "width": 1152,
+    "height": 2560,
+    "lastPairMillis": 1210,
+    "rawCharacters": 0,
+    "binaryCharacters": 1,
+    "fixtureTotal": 3,
+    "inputDiagnostics": {
+      "rowStride": 4608,
+      "pixelStride": 4,
+      "bufferPosition": 0,
+      "bufferRemaining": 11796480,
+      "full": {
+        "samples": 2304,
+        "alphaZero": 0,
+        "alphaOpaque": 2304,
+        "minimumAlpha": 255,
+        "maximumAlpha": 255,
+        "darkSamples": 0,
+        "lightSamples": 268,
+        "minimumLuminance": 128,
+        "maximumLuminance": 255,
+        "meanLuminance": 228
+      },
+      "center": {
+        "samples": 2304,
+        "alphaZero": 0,
+        "alphaOpaque": 2304,
+        "minimumAlpha": 255,
+        "maximumAlpha": 255,
+        "darkSamples": 0,
+        "lightSamples": 176,
+        "minimumLuminance": 138,
+        "maximumLuminance": 252,
+        "meanLuminance": 226
+      }
+    }
+  },
+  "pixels": {
+    "runId": "A02_31164e8f4b2547cd8fb87a2688d94c9f",
+    "phase": "STOPPED",
+    "endReason": "PREVIEW_READY",
+    "frames": 1,
+    "variedFrames": 1,
+    "consecutiveVariedFrames": 1,
+    "scopeSkips": 3,
+    "width": 1152,
+    "height": 2560,
+    "firstFrameLatencyMillis": 7492,
+    "elapsedMillis": 8833
+  },
+  "sameSession": true,
+  "hasFullFixtureInOneObservedFrame": false,
+  "realWechatGeneralAccuracy": "NOT_ESTABLISHED_BY_THREE_SENTENCES",
+  "systemProjectionAbsent": true,
+  "localPreviewActivityOpened": true,
+  "previewVisibleUserConfirmed": true,
+  "userVisualAssessment": "THREE_TEST_SENTENCES_PRESENT_AND_CLEAR",
+  "assessmentSource": "USER_REPLY_NOT_AGENT_IMAGE_INSPECTION",
+  "systemProjectionVerification": "dumpsys media_projection returned Media Projection: null"
+}

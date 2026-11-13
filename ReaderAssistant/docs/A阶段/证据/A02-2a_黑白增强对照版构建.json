@@ -1,0 +1,17 @@
+{
+  "tests": {
+    "tests": 19,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "apkBytes": 47153187,
+  "apkSha256": "bdb22456cffc85540999662c8d08c8f2b031cc2ca2011f0adeca739db9f0fb23",
+  "fixtureVersion": 1,
+  "experimentVersion": 2,
+  "contentUnchanged": true,
+  "criterionUnchanged": "3/3 exact substrings after whitespace removal",
+  "realComparison": "PENDING_PHONE",
+  "deployment": "NOT_INSTALLED_DEVICE_DISCONNECTED",
+  "phoneComparison": "PENDING"
+}

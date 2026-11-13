@@ -1,0 +1,27 @@
+{
+  "run": {
+    "runId": "A02_53eff74167d64379b1a303714092ca4d",
+    "phase": "STOPPED",
+    "endReason": "TIME_LIMIT",
+    "frames": 7,
+    "variedFrames": 7,
+    "consecutiveVariedFrames": 0,
+    "scopeSkips": 3,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 2857,
+    "elapsedMillis": 120109
+  },
+  "observedRunning": {
+    "runId": "A02_53eff74167d64379b1a303714092ca4d",
+    "phase": "RUNNING",
+    "frames": 7,
+    "variedFrames": 7,
+    "elapsedMillis": 48455
+  },
+  "projectionServiceActive": false,
+  "ownProjectionListed": false,
+  "wechatSelected": true,
+  "captureEnabled": true,
+  "scope": "automatic frames only; OCR and image legibility not tested"
+}

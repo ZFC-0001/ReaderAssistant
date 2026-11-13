@@ -1,0 +1,22 @@
+{
+  "scenario": "wechat_official_article_and_notification_stop",
+  "result": {
+    "runId": "A02_410002c5bb0b4a5c84612450043b0766",
+    "phase": "STOPPED",
+    "endReason": "USER_STOP",
+    "frames": 24,
+    "variedFrames": 24,
+    "consecutiveVariedFrames": 2,
+    "scopeSkips": 0,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 2597,
+    "elapsedMillis": 38969
+  },
+  "newRunComparedWithChat": true,
+  "framesUnchangedAfterStop": true,
+  "projectionServiceListed": false,
+  "ownProjectionListed": false,
+  "systemProjectionDumpSucceeded": true,
+  "ocrTested": false
+}

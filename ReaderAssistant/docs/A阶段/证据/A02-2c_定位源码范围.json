@@ -1,0 +1,26 @@
+{
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrFrameDiagnostics.kt": {
+    "before": null,
+    "after": "2154101864ac855d7f6198c950c4005e853a09df10d52248a5ac471dadcdad86"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrPipelineSelfTest.kt": {
+    "before": null,
+    "after": "66067d2fd3567c478113532c97b07c5f504c0dd0026ccd835aeae56010d084e8"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatOcrProbe.kt": {
+    "before": "01afb8b2111a0c09f189ffd090f23dc864da7a2e2a46a8968437b065bbd65bc5",
+    "after": "a174d14fb8c2fb331a9135cb843724d3523e6e930b4bef81cc0f6d8fd309e9da"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeActivity.kt": {
+    "before": "057fa0998a398aa381a973fcc0436ac0259ecebf43e509d822fce6890390e3a0",
+    "after": "c8744c8c612f2d2585b9f5660395c64c89472a93aacf7c843dd7b3d83ecf33db"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeService.kt": {
+    "before": "c9dc5c80d5bfd4c512b4cf621f63c9ce5a398fdc9536070dae7fb5aa354dd685",
+    "after": "8767e8e20d75a24a0c952ea65d4c8ca9107982d54d7cf80fcb4b5dd0f59ac850"
+  },
+  "app/src/test/java/com/example/localtaskassistant/capture/ocr/OcrFrameDiagnosticsTest.kt": {
+    "before": null,
+    "after": "8df41abbaf275db2f378adc91d576544bc3193f97b4097235c99e34ee8f8c7d4"
+  }
+}

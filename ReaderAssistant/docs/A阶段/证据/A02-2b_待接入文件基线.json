@@ -1,0 +1,54 @@
+{
+  "app/build.gradle.kts": {
+    "beforeSha256": "cabdb55c2307ee858957157e0d53d04b4eef7fb012e9afb8ebe44d8c69900eb2",
+    "candidateSha256": "238330f81ba98a9680b4d9d0557988281f47becea8acb854993b4af02ffdc826"
+  },
+  "gradle/libs.versions.toml": {
+    "beforeSha256": "3404cb99d4826060d852e9d3682aa7aadd37b29c5b557328a0b0a7873fbcedfc",
+    "candidateSha256": "2a576e92fb5863677f9aac5abb9116bf14c14840455877443e50392ce35e6fe6"
+  },
+  "app/src/main/AndroidManifest.xml": {
+    "beforeSha256": "db7233ef7f2b98ae69731c9e4a44cbb68d8b59ad27f740528abff7748cc58510",
+    "candidateSha256": "43755dff57693c4f376ad1573533b8f6d180be602dbc746ab2b311b9c4e98c0e"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/LocalOcrAdapter.kt": {
+    "beforeSha256": "89d35ae9f60e1236f7c94c2866ac341eec9ac65ee0fa1a5916b21ef64a0d205c",
+    "candidateSha256": "65ee43c77f02301a009bc1b3746a8901be1de5008974898b578abca2ffa61003",
+    "stagedSource": "work/a02-2a/candidate/capture/ocr/LocalOcrAdapter.kt"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrInputRules.kt": {
+    "beforeSha256": null,
+    "candidateSha256": "c3da10d12e470428443d183fbbd4c48a6f6ca3134fa76c55b50def53d2b96d5e",
+    "stagedSource": "work/a02-2a/candidate/capture/ocr/OcrInputRules.kt"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/RgbaPlanePacker.kt": {
+    "beforeSha256": null,
+    "candidateSha256": "55e1b767abde082c1e9704ff63d3ee61e4c064ec8b4f204f0893f962dd4d5c8f",
+    "stagedSource": "work/a02-2b/candidate/capture/ocr/RgbaPlanePacker.kt"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatOcrProbe.kt": {
+    "beforeSha256": null,
+    "candidateSha256": "01afb8b2111a0c09f189ffd090f23dc864da7a2e2a46a8968437b065bbd65bc5",
+    "stagedSource": "work/a02-2b/candidate/capture/ocr/WechatOcrProbe.kt"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeService.kt": {
+    "beforeSha256": "0b2b16a657452dcac4a3ebfacdf668b5bd5e03cabc220c3f2557951606d51867",
+    "candidateSha256": "4b43132e42dde320c5ffb69ea7ed6e442116a47ba523f0af79cc9402f5896ed8",
+    "stagedSource": "work/a02-2b/candidate/capture/ocr/WechatProjectionProbeService.kt"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeActivity.kt": {
+    "beforeSha256": "2d2da70554277f940690eba7f79ec63d2dfd5f1f7f5be79ec1c3fd89e357fe1d",
+    "candidateSha256": "34ab861b88170001bfd34f6b959656d7b3619e5ce987bc36d7b42a85ba514c65",
+    "stagedSource": "work/a02-2b/candidate/capture/ocr/WechatProjectionProbeActivity.kt"
+  },
+  "app/src/test/java/com/example/localtaskassistant/capture/ocr/OcrInputRulesTest.kt": {
+    "beforeSha256": null,
+    "candidateSha256": "a650ec9b824c7cbd5fe24a788fffe451b639ef4a7c025a0dd811d61ff3e3c6bd",
+    "stagedSource": "work/a02-2a/tests/capture/ocr/OcrInputRulesTest.kt"
+  },
+  "app/src/test/java/com/example/localtaskassistant/capture/ocr/RgbaPlanePackerTest.kt": {
+    "beforeSha256": null,
+    "candidateSha256": "b4b9505dda21697688e020918b5d7d602a296d65c3684e64bfe346622d560511",
+    "stagedSource": "work/a02-2b/tests/capture/ocr/RgbaPlanePackerTest.kt"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "result": "CANDIDATE_COMPILE_UNIT_PASS_NOT_INTEGRATED",
+  "modules": {
+    "app": {
+      "tests": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "candidate-check": {
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "candidateCompile": "compileDebugKotlin success against existing assistant classes and real SDK",
+  "realWechatOcrTest": "NOT_RUN",
+  "publicFilesApplied": false
+}

@@ -1,0 +1,30 @@
+{
+  "expectedRunId": "A01_1c58ea9dfc07",
+  "result": {
+    "runId": "A01_1c58ea9dfc07",
+    "samples": 4,
+    "consecutiveComplete": 2,
+    "blocks": 39,
+    "truncated": false,
+    "fixtureHits": 3,
+    "observedAtMillis": 1794374308099,
+    "passed": true
+  },
+  "validCurrentRunPass": true,
+  "serviceDiagnostic": [
+    "A_QQ_PROBE attempts=4 gate=qq_read_finished",
+    "A_QQ_PROBE policyEnabled=true qqAllowed=true connected=true currentSession=true",
+    "A_QQ_PROBE controlExists=true workerCompleted=4 workerQueued=0 workerShutdown=false"
+  ],
+  "androidApi": 35,
+  "qqVersion": "9.2.5",
+  "unitTests": {
+    "tests": 64,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "controlRemoved": true,
+  "accessibilityAuthorizationRetained": true,
+  "signedApkPayloadUnchanged": true
+}

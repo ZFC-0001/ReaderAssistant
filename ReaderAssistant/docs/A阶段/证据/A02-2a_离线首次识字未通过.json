@@ -1,0 +1,22 @@
+{
+  "result": {
+    "runId": "A022a_49257d80e26c4c7b9e80c902fa1b7fe3",
+    "phase": "FAIL",
+    "fixtureVersion": 1,
+    "fixtureHits": 1,
+    "fixtureTotal": 3,
+    "comparison": "whitespace_removed_exact_substrings",
+    "lineCount": 3,
+    "characterCount": 35,
+    "elapsedMillis": 472,
+    "inputBytesCleared": true,
+    "airplaneModeOnAtStart": true,
+    "noActiveNetworkAtStart": true,
+    "noActiveNetworkAtEnd": true,
+    "internetPermissionGranted": false
+  },
+  "offlineEngineExecuted": true,
+  "fixtureAccuracyAccepted": false,
+  "recognitionTextPersistedByApp": false,
+  "realWechatOcr": "NOT_TESTED"
+}

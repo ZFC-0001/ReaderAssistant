@@ -1,0 +1,39 @@
+{
+  "runId": "A022c_aaf92d2cbd4c45729b14d4734f43cd87",
+  "phase": "COMPLETE",
+  "fixtureTotal": 3,
+  "source": "SYNTHETIC_CANVAS_PADDED_RGBA",
+  "internetPermissionGranted": false,
+  "noActiveNetworkAtStart": false,
+  "input": {
+    "samples": 2304,
+    "alphaZero": 0,
+    "alphaOpaque": 2304,
+    "minimumAlpha": 255,
+    "maximumAlpha": 255,
+    "darkSamples": 55,
+    "lightSamples": 2216,
+    "minimumLuminance": 0,
+    "maximumLuminance": 255,
+    "meanLuminance": 247
+  },
+  "variants": [
+    {
+      "mode": "RAW",
+      "fixtureHits": 1,
+      "characters": 35,
+      "elapsedMillis": 328,
+      "phase": "FAIL"
+    },
+    {
+      "mode": "WHITE_PAGE_BINARY",
+      "fixtureHits": 3,
+      "characters": 36,
+      "elapsedMillis": 120,
+      "phase": "PASS"
+    }
+  ],
+  "inputBytesCleared": true,
+  "elapsedMillis": 879,
+  "noActiveNetworkAtEnd": false
+}

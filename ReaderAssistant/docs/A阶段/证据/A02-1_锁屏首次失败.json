@@ -1,0 +1,47 @@
+{
+  "scenario": "screen_lock_stop",
+  "result": "FAIL_OLD_VERSION",
+  "observedWhileLocked": {
+    "result": {
+      "runId": "A02_7f58f67848bf4931a74a119205bdf660",
+      "phase": "RUNNING",
+      "endReason": null,
+      "frames": 1,
+      "variedFrames": 1,
+      "consecutiveVariedFrames": 1,
+      "scopeSkips": 0,
+      "width": 576,
+      "height": 1280,
+      "firstFrameLatencyMillis": 9796,
+      "elapsedMillis": 9796
+    },
+    "projectionServiceListed": true,
+    "ownProjectionListed": true,
+    "projectionDumpSucceeded": true,
+    "wakefulness": [
+      "Dozing"
+    ],
+    "keyguardFlags": [
+      "showing=true",
+      "inputRestricted=false",
+      "secure=true",
+      "deviceHasKeyguard=true",
+      "enabled=true"
+    ]
+  },
+  "eventualStop": {
+    "runId": "A02_7f58f67848bf4931a74a119205bdf660",
+    "phase": "STOPPED",
+    "endReason": "TIME_LIMIT",
+    "frames": 1,
+    "variedFrames": 1,
+    "consecutiveVariedFrames": 1,
+    "scopeSkips": 0,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 9796,
+    "elapsedMillis": 120090
+  },
+  "manualCleanupAttempt": "am stopservice returned was not running; not a successful manual stop",
+  "fixDeviceRetest": "PENDING"
+}

@@ -1,0 +1,18 @@
+{
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrBandPlanner.kt": {
+    "before": null,
+    "after": "ea9973f41f66dd16911d533635605cfb845a047487a0f8d2bc16e1ae0f3dc438"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/OcrScreenSizeExperiment.kt": {
+    "before": null,
+    "after": "0553571827ecf2b720edf3a0d106cb77c2c65f2eee9742ef10152d6bb82bd294"
+  },
+  "app/src/main/java/com/example/localtaskassistant/capture/ocr/WechatProjectionProbeActivity.kt": {
+    "before": "baa93d27489213dc03e5d9d8a5513ec6ff107f6bab97787cb8b6e5963e6670d0",
+    "after": "e94585e370eb59889a4a6c47338e3f4d7e0cb8b36d0e4fbed54b5531fbc5cac4"
+  },
+  "app/src/test/java/com/example/localtaskassistant/capture/ocr/OcrBandPlannerTest.kt": {
+    "before": null,
+    "after": "8c8d927c8b2a10019c76232834d42388c398f0bbc29f6eba591846abfeb32aab"
+  }
+}

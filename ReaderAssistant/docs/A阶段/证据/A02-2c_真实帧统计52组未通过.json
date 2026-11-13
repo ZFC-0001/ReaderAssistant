@@ -1,0 +1,67 @@
+{
+  "ocr": {
+    "runId": "A02_cfd81d3b09b54e40b75209b730d55632",
+    "phase": "STOPPED",
+    "stopReason": "TIME_LIMIT",
+    "pairs": 52,
+    "errors": 0,
+    "busyDrops": 0,
+    "lastRawHits": 0,
+    "lastBinaryHits": 0,
+    "bestPairRawHits": 0,
+    "bestPairBinaryHits": 0,
+    "bestPairNumber": 0,
+    "width": 1152,
+    "height": 2560,
+    "lastPairMillis": 668,
+    "rawCharacters": 0,
+    "binaryCharacters": 2,
+    "fixtureTotal": 3,
+    "inputDiagnostics": {
+      "rowStride": 4608,
+      "pixelStride": 4,
+      "bufferPosition": 0,
+      "bufferRemaining": 11796480,
+      "full": {
+        "samples": 2304,
+        "alphaZero": 0,
+        "alphaOpaque": 2304,
+        "minimumAlpha": 255,
+        "maximumAlpha": 255,
+        "darkSamples": 0,
+        "lightSamples": 300,
+        "minimumLuminance": 130,
+        "maximumLuminance": 255,
+        "meanLuminance": 230
+      },
+      "center": {
+        "samples": 2304,
+        "alphaZero": 0,
+        "alphaOpaque": 2304,
+        "minimumAlpha": 255,
+        "maximumAlpha": 255,
+        "darkSamples": 0,
+        "lightSamples": 282,
+        "minimumLuminance": 121,
+        "maximumLuminance": 255,
+        "meanLuminance": 228
+      }
+    }
+  },
+  "pixels": {
+    "runId": "A02_cfd81d3b09b54e40b75209b730d55632",
+    "phase": "STOPPED",
+    "endReason": "TIME_LIMIT",
+    "frames": 53,
+    "variedFrames": 53,
+    "consecutiveVariedFrames": 0,
+    "scopeSkips": 8,
+    "width": 1152,
+    "height": 2560,
+    "firstFrameLatencyMillis": 5753,
+    "elapsedMillis": 120050
+  },
+  "sameSession": true,
+  "hasFullFixtureInOneObservedFrame": false,
+  "realWechatGeneralAccuracy": "NOT_ESTABLISHED_BY_THREE_SENTENCES"
+}

@@ -1,0 +1,17 @@
+{
+  "build": "BUILD SUCCESSFUL",
+  "unitTests": {
+    "tests": 94,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "gradleTasks": {
+    "executed": 16,
+    "upToDate": 26
+  },
+  "installed": true,
+  "signedPayloadUnchanged": true,
+  "normalScope": "A only; Manifest unchanged this round",
+  "lockDeviceRetest": "PENDING"
+}

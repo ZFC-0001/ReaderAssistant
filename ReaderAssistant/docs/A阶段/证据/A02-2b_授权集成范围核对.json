@@ -1,0 +1,15 @@
+{
+  "protectedFileCount": 69,
+  "publicExceptionsOnly": {
+    "modified": [
+      "app/build.gradle.kts",
+      "app/src/main/AndroidManifest.xml",
+      "gradle/libs.versions.toml"
+    ],
+    "added": [],
+    "deleted": []
+  },
+  "candidateSourceHashesMatch": true,
+  "normalWhitelistChanged": false,
+  "businessContractUiOtherFilesUnchanged": true
+}

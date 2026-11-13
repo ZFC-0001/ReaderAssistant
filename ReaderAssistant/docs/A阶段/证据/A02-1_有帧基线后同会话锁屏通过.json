@@ -1,0 +1,39 @@
+{
+  "scenario": "live_capture_then_lock_same_session",
+  "baseline": {
+    "runId": "A02_a5a6effe71214a57ab38f363346c11e8",
+    "phase": "RUNNING",
+    "endReason": null,
+    "frames": 6,
+    "variedFrames": 6,
+    "consecutiveVariedFrames": 2,
+    "scopeSkips": 0,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 2390,
+    "elapsedMillis": 16155
+  },
+  "afterLock": {
+    "runId": "A02_a5a6effe71214a57ab38f363346c11e8",
+    "phase": "STOPPED",
+    "endReason": "LOCKED",
+    "frames": 6,
+    "variedFrames": 6,
+    "consecutiveVariedFrames": 2,
+    "scopeSkips": 0,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 2390,
+    "elapsedMillis": 80077
+  },
+  "sameRunId": true,
+  "framesUnchangedOnRepeat": true,
+  "projectionServiceListed": false,
+  "ownProjectionListed": false,
+  "wakefulness": [
+    "Dozing"
+  ],
+  "keyguardShowing": true,
+  "result": "PASS",
+  "ocrTested": false
+}

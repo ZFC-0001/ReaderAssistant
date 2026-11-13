@@ -1,0 +1,83 @@
+{
+  "scenario": "wechat_home_return",
+  "before": {
+    "runId": "A02_058d88a88efd45cf82fd151b6f3c5d04",
+    "phase": "RUNNING",
+    "endReason": null,
+    "frames": 1,
+    "variedFrames": 1,
+    "consecutiveVariedFrames": 1,
+    "scopeSkips": 0,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 2399,
+    "elapsedMillis": 2399
+  },
+  "liveBefore": {
+    "runId": "A02_058d88a88efd45cf82fd151b6f3c5d04",
+    "phase": "RUNNING",
+    "elapsedMillis": 25306
+  },
+  "wechatFocusedBefore": true,
+  "homeSettled": {
+    "runId": "A02_058d88a88efd45cf82fd151b6f3c5d04",
+    "phase": "RUNNING",
+    "endReason": null,
+    "frames": 1,
+    "variedFrames": 1,
+    "consecutiveVariedFrames": 1,
+    "scopeSkips": 0,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 2399,
+    "elapsedMillis": 2399
+  },
+  "defaultHomeFocused": true,
+  "homeAfter5Seconds": {
+    "runId": "A02_058d88a88efd45cf82fd151b6f3c5d04",
+    "phase": "RUNNING",
+    "endReason": null,
+    "frames": 1,
+    "variedFrames": 1,
+    "consecutiveVariedFrames": 1,
+    "scopeSkips": 0,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 2399,
+    "elapsedMillis": 2399
+  },
+  "defaultHomeStillFocused": true,
+  "noFramesAddedWhileAtHome": true,
+  "afterReturn": {
+    "runId": "A02_058d88a88efd45cf82fd151b6f3c5d04",
+    "phase": "RUNNING",
+    "endReason": null,
+    "frames": 1,
+    "variedFrames": 1,
+    "consecutiveVariedFrames": 0,
+    "scopeSkips": 1,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 2399,
+    "elapsedMillis": 34045
+  },
+  "wechatFocusedAfter": true,
+  "sameRunningSession": true,
+  "framesResumedAfterReturn": false,
+  "result": "PASS_WHILE_BROWSING",
+  "afterReturnAndUserScroll": {
+    "runId": "A02_058d88a88efd45cf82fd151b6f3c5d04",
+    "phase": "RUNNING",
+    "endReason": null,
+    "frames": 11,
+    "variedFrames": 11,
+    "consecutiveVariedFrames": 2,
+    "scopeSkips": 1,
+    "width": 576,
+    "height": 1280,
+    "firstFrameLatencyMillis": 2399,
+    "elapsedMillis": 102415
+  },
+  "userReportedFiveSecondScroll": true,
+  "framesResumedWhileBrowsing": true
+}

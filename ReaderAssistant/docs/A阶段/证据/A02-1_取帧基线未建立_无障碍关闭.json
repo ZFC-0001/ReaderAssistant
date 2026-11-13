@@ -1,0 +1,24 @@
+{
+  "result": {
+    "runId": "A02_2aa00670f02a4567bdb8e5e3f56a9cf8",
+    "phase": "RUNNING",
+    "endReason": null,
+    "frames": 0,
+    "variedFrames": 0,
+    "consecutiveVariedFrames": 0,
+    "scopeSkips": 8,
+    "width": 0,
+    "height": 0,
+    "firstFrameLatencyMillis": null,
+    "elapsedMillis": 15406
+  },
+  "serviceEnabled": false,
+  "serviceBound": false,
+  "wechatSelected": true,
+  "captureEnabled": true,
+  "wechatFocused": true,
+  "accessibilityDiagnostic": [],
+  "baselineAccepted": false,
+  "blocker": "SYSTEM_ACCESSIBILITY_DISABLED_AND_UNBOUND",
+  "previousZeroFrameRootCause": "NOT_ESTABLISHED_BY_THIS_OBSERVATION"
+}
